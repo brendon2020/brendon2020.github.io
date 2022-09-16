@@ -27,7 +27,7 @@ On the high level a component model consist of at 3 layers:
 
 An example of multy-layer component model on the Marketplace could be a Jenkins CI/CD pipeline implementation. In this case there would be more than one Infrastructure Components so the stack would consists of 4 layers:
 
-- A Security component is a bundle of all security permissions needed to run the overlaying EKS cluster 
+* A Security component is a bundle of all security permissions needed to run the overlaying EKS cluster 
 * First-level Infrastructure component is a EKS cluster. We consider it a component as it could be published on Marketplace on its own although it could bear some application value only for the Infrastructure/devops team. The most of developer team would normally need to use higher level components for their application needs.
 * Second-level infrastructure component is a Jenkins CI/CD. Particularly when implemented as a code (JCasC) Jenkins could be shipped as a all-code defined software component convenient to deploy to Kubernetes and further customize and store under the version control without need in any manual changes of operations team.
 * Application component. In this case is a specific implementation of Jenkins pipeline. It is implemented as a code as well thanks to Jenkinsfile. Such a component could be reviewed as a application-level utility enabling some developers team to setup some CI/CD pipeline by themselves, with no need of operations team intervention.
