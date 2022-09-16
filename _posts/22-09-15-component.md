@@ -37,4 +37,5 @@ An example of multy-layer component model on the Marketplace could be a Jenkins 
 
 ```javascript
 console.log("hello world!");
+var x = 5;
 ```
