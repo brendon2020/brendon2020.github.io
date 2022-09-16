@@ -23,7 +23,7 @@ On the high level a component model consist of at 3 layers:
 
 ![Abstract Component](/assets/abstract_component.png "Abstract component diagram")
 
-## The Jenkins Component Sample Implementation
+## Jenkins Component Sample Implementation
 
 An example of multy-layer component model on the Marketplace could be a Jenkins CI/CD pipeline implementation. In this case there would be more than one Infrastructure Components so the stack would consists of 4 layers:
 
