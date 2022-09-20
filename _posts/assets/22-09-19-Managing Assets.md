@@ -1,5 +1,5 @@
 ---
 layout: post
 title: "Managing Assets"
-categories: ["Assets"]
+categories: Assets
 ---
